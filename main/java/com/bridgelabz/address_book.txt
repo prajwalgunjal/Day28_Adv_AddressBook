@@ -1,0 +1,2 @@
+AddressBook{AddressbookName='student', contactBook=[Contact{FirstName='prajwal', LastName='gunjal', City='pune', Address='kasarwadi', State='maharashtra', Zip='411034', PhoneNumber='9881640062', Email='p@gmail.com'}, Contact{FirstName='prajkta', LastName='gunjal', City='as', Address='sa', State='as', Zip='as', PhoneNumber='as', Email='sa'}]}
+AddressBook{AddressbookName='employee', contactBook=[Contact{FirstName='emp1', LastName='emp1', City='sa', Address='s', State='as', Zip='sa', PhoneNumber='sa', Email='sa'}]}
