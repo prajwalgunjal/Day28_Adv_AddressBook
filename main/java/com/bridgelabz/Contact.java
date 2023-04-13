@@ -98,7 +98,20 @@ public class Contact {
         System.out.println("Welcome to AddressBook Program");
     }
 
-
+    public JSONObject getContactJSON() {
+        JSONObject jsonPerson = new JSONObject();
+        jsonPerson.put("firstName", getFirstName());
+        jsonPerson.put("lastName", getLastName());
+        jsonPerson.put("city", getCity());
+        jsonPerson.put("address", getAddress());
+        jsonPerson.put("state", getState());
+        jsonPerson.put("zip", getZip());
+        jsonPerson.put("phonenumber", getPhoneNumber());
+        jsonPerson.put("email", getEmail());
+        JSONObject jsonPersonObject = new JSONObject();
+        jsonPersonObject.put("person", jsonPerson);
+        return jsonPersonObject;
+    }
 
     @Override
     public int hashCode() {
